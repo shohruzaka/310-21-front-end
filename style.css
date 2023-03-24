@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu .logo img{
+    width: 160px;
+   
+}
+.menu .logo h3{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 160px;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.menu-items{
+    display: flex;
+    flex-direction: row;
+}
+.menu-items li{
+    list-style: none;
+    font-size: 22px;
+    margin-top: 60px;
+    padding: 10px 20px;
+}
+
+.club img{
+    width: 200px;
+}
+.infor{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 0;
+}
+.infor ul li{
+    list-style: none;
+}
