@@ -51,4 +51,5 @@
     height: 80px;
     background-color: black;
     color:white;
+    border-top: 2px solid red;
 }
