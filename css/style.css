@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.section{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: seagreen;
+    box-shadow: 1px 2px 20px #888383;
+    transition: all 0.5s ease 0.2s;
+    animation-name: shakeit;
+    animation-duration: 1s;
+
+}
+.section:hover{
+    background-color: #2e10c5;
+    color: aqua;
+    transform: scale(1.2);
+}
+
+@keyframes shakeit {
+    0% {left: 0;}
+
+    50% {left: 100px;}
+
+    100%{left: 0;}
+}
+.ajsas{
+    asjahs
+}
